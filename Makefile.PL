@@ -20,6 +20,7 @@ requires(
     'Net::Stomp'                     => 0,
     'Path::Class'                    => 0,
     'Path::Class::File'              => 0,
+    'Test::Differences'              => '0.4801',
     'version'                        => 0,
 );
 auto_install;

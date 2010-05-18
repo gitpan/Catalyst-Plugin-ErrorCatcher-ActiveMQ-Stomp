@@ -32,7 +32,8 @@ requires:
   Net::Stomp: 0
   Path::Class: 0
   Path::Class::File: 0
+  Test::Differences: 0.4801
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001000
+version: 0.001001

@@ -16,7 +16,7 @@ Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - The great new Catalyst::Plugin
 
 =cut
 
-use version; our $VERSION = qv(0.1.0)->numify;
+use version; our $VERSION = qv(0.1.1)->numify;
 
 
 class_type 'Data::Serializer';
