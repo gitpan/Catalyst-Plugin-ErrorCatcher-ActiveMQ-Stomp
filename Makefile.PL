@@ -17,10 +17,9 @@ requires(
     'Moose::Util::TypeConstraints'   => 0,
     'MooseX::Types'                  => 0,
     'MooseX::Types::Moose'           => 0,
-    'Net::Stomp'                     => 0,
+    'Net::Stomp'                     => '0.42',
     'Path::Class'                    => 0,
     'Path::Class::File'              => 0,
-    'Test::Differences'              => '0.4801',
     'version'                        => 0,
 );
 auto_install;
