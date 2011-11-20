@@ -1,5 +1,8 @@
 package Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp;
 {
+  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.001003';
+}
+{
   $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::DIST = 'Catalyst-Plugin-ErrorCatcher-ActiveMQ-Stomp';
 }
 
@@ -19,11 +22,10 @@ Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - The great new Catalyst::Plugin
 
 =head1 VERSION
 
-version 0.001002
+version 0.001003
 
 =cut
 
-use version; our $VERSION = qv(0.1.0)->numify;
 
 
 class_type 'Data::Serializer';
