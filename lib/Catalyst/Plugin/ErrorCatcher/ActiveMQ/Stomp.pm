@@ -1,6 +1,6 @@
 package Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp;
 {
-  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.001004';
+  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.1.1';
 }
 {
   $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::DIST = 'Catalyst-Plugin-ErrorCatcher-ActiveMQ-Stomp';
@@ -18,11 +18,11 @@ use Fcntl qw(:flock);
 
 =head1 NAME
 
-Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - The great new Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp!
+Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - Plugin for ErrorCatcher to throw exceptions over ActiveMQ using Stomp
 
 =head1 VERSION
 
-version 0.001004
+version 0.1.1
 
 =cut
 

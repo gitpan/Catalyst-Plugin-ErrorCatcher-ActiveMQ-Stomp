@@ -1,9 +1,9 @@
 NAME
-    Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - The great new
-    Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp!
+    Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - Plugin for
+    ErrorCatcher to throw exceptions over ActiveMQ using Stomp
 
 VERSION
-    version 0.001004
+    version 0.1.1
 
 SYNOPSIS
     Put this sort of thing into the catalyst conf file..
