@@ -1,6 +1,6 @@
 package Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp;
 {
-  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.1.1';
+  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.1.5';
 }
 {
   $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::DIST = 'Catalyst-Plugin-ErrorCatcher-ActiveMQ-Stomp';
@@ -22,7 +22,7 @@ Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - Plugin for ErrorCatcher to thr
 
 =head1 VERSION
 
-version 0.1.1
+version 0.1.5
 
 =cut
 
