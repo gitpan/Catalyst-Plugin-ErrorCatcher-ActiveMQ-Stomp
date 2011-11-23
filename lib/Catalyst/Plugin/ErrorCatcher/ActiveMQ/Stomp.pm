@@ -1,6 +1,6 @@
 package Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp;
 {
-  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.001003';
+  $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::VERSION = '0.001004';
 }
 {
   $Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp::DIST = 'Catalyst-Plugin-ErrorCatcher-ActiveMQ-Stomp';
@@ -22,7 +22,7 @@ Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp - The great new Catalyst::Plugin
 
 =head1 VERSION
 
-version 0.001003
+version 0.001004
 
 =cut
 
@@ -170,6 +170,7 @@ sub _next_test_filename {
 
     # Get a lock on "$dir/.lock" to avoid prove -j issues
     my $lock;
+    mkdir $dir;
     open($lock, ">", "$dir/.lock") or die "Unable to open lock file $dir/.lock";
     flock($lock, LOCK_EX) or die "Cannot lock ActiveMQ dump dir";
 

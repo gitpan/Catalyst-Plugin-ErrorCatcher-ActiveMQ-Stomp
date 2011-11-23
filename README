@@ -3,7 +3,7 @@ NAME
     Catalyst::Plugin::ErrorCatcher::ActiveMQ::Stomp!
 
 VERSION
-    version 0.001003
+    version 0.001004
 
 SYNOPSIS
     Put this sort of thing into the catalyst conf file..
